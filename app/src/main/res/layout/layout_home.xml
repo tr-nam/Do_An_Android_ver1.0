@@ -94,7 +94,7 @@
 
                         <!-- Ảnh sản phẩm -->
                         <ImageView
-                            android:id="@+id/product_image1"
+                            android:id="@+id/product_image"
                             android:layout_width="match_parent"
                             android:layout_height="165dp"
                             android:scaleType="centerCrop"
@@ -102,7 +102,7 @@
 
                         <!-- Tên sản phẩm -->
                         <TextView
-                            android:id="@+id/product_name1"
+                            android:id="@+id/product_name"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingTop="8dp"
@@ -114,102 +114,7 @@
 
                         <!-- Giá sản phẩm -->
                         <TextView
-                            android:id="@+id/product_price1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:paddingBottom="4dp"
-                            android:text="500,000 VND"
-                            android:textColor="#FF5722"
-                            android:textSize="16sp" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:padding="8dp">
-
-                        <!-- Ảnh sản phẩm -->
-                        <ImageView
-                            android:id="@+id/product_image2"
-                            android:layout_width="match_parent"
-                            android:layout_height="165dp"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/img_1" />
-
-                        <!-- Tên sản phẩm -->
-                        <TextView
-                            android:id="@+id/product_name2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:paddingTop="8dp"
-                            android:paddingBottom="4dp"
-                            android:text="Tên sản phẩm"
-                            android:textColor="#000000"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                        <!-- Giá sản phẩm -->
-                        <TextView
-                            android:id="@+id/product_price2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:paddingBottom="4dp"
-                            android:text="500,000 VND"
-                            android:textColor="#FF5722"
-                            android:textSize="16sp" />
-                    </LinearLayout>
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:padding="8dp">
-
-                        <!-- Ảnh sản phẩm -->
-                        <ImageView
-                            android:id="@+id/product_image3"
-                            android:layout_width="match_parent"
-                            android:layout_height="165dp"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/img_1" />
-
-                        <!-- Tên sản phẩm -->
-                        <TextView
-                            android:id="@+id/product_name3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:paddingTop="8dp"
-                            android:paddingBottom="4dp"
-                            android:text="Tên sản phẩm"
-                            android:textColor="#000000"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                        <!-- Giá sản phẩm -->
-                        <TextView
-                            android:id="@+id/product_price3"
+                            android:id="@+id/product_price"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:paddingBottom="4dp"
@@ -241,7 +146,7 @@
 
                         <!-- Tên sản phẩm -->
                         <TextView
-                            android:id="@+id/product_name4"
+                            android:id="@+id/product_name"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingTop="8dp"
@@ -253,7 +158,102 @@
 
                         <!-- Giá sản phẩm -->
                         <TextView
-                            android:id="@+id/product_price4"
+                            android:id="@+id/product_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="4dp"
+                            android:text="500,000 VND"
+                            android:textColor="#FF5722"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <!-- Ảnh sản phẩm -->
+                        <ImageView
+                            android:id="@+id/product_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="165dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/img_1" />
+
+                        <!-- Tên sản phẩm -->
+                        <TextView
+                            android:id="@+id/product_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="4dp"
+                            android:text="Tên sản phẩm"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <!-- Giá sản phẩm -->
+                        <TextView
+                            android:id="@+id/product_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="4dp"
+                            android:text="500,000 VND"
+                            android:textColor="#FF5722"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <!-- Ảnh sản phẩm -->
+                        <ImageView
+                            android:id="@+id/product_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="165dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/img_1" />
+
+                        <!-- Tên sản phẩm -->
+                        <TextView
+                            android:id="@+id/product_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="4dp"
+                            android:text="Tên sản phẩm"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <!-- Giá sản phẩm -->
+                        <TextView
+                            android:id="@+id/product_price"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:paddingBottom="4dp"
