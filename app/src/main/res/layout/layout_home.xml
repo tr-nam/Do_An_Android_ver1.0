@@ -95,6 +95,7 @@
 
                         <!-- Ảnh sản phẩm -->
                         <ImageView
+                            android:id="@+id/imgProduct"
                             android:layout_width="match_parent"
                             android:layout_height="165dp"
                             android:scaleType="centerCrop"
