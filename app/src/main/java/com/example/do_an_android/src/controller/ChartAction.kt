@@ -34,7 +34,7 @@ class ChartAction : AppCompatActivity() {
         val barItem = listOf(
             "2021" to 5f,
             "2022" to 9f,
-            "2023" to 6.6f,
+            "2023" to 6.5f,
             "2024" to 6f
         )
         barChart.animate(barItem)
